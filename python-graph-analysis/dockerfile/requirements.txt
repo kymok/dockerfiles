@@ -1,0 +1,11 @@
+altair
+matplotlib
+pandas
+geopandas
+osmnx
+networkx
+numpy
+scipy
+python-igraph
+ipywidgets
+utm
