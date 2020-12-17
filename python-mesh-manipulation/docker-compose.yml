@@ -1,0 +1,14 @@
+version: '3'
+services:
+    app:
+        container_name: python-topo-limiter
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+                - ./work:/work:delegated
+        ports:
+            - "9000:9000"
+        command: sh -c "jupyter lab --ip=0.0.0.0 --port 9000 --allow-root --notebook-dir=/work"
+        stdin_open: true
+        restart: always

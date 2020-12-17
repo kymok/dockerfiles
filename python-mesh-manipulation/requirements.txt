@@ -1,0 +1,10 @@
+numpy
+scipy
+ipywidgets
+pandas
+matplotlib
+altair
+altair-saver
+numpy-stl
+trimesh
+scikit-image
