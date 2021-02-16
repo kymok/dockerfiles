@@ -1,14 +1,14 @@
 version: '3'
 services:
     app:
-        container_name: app
+        container_name: graph-analysis
         build:
             context: .
             dockerfile: Dockerfile
         volumes:
-                - ./app:/app
+                - ./work:/work
         ports:
             - "9000:9000"
-        command: sh -c "jupyter lab --ip=0.0.0.0 --port 9000 --allow-root --notebook-dir=/app"
+        command: sh -c "jupyter lab --ip=0.0.0.0 --port 9000 --allow-root --notebook-dir=/work"
         stdin_open: true
         restart: always

@@ -1,0 +1,25 @@
+# other
+numpy
+scipy
+scikit-learn
+scikit-fda
+
+# visualisation
+altair
+altair-saver
+selenium
+ipywidgets
+matplotlib
+colour-science
+
+# (geo) data
+pandas
+geopandas
+utm
+pysal
+momepy
+
+# graph
+osmnx
+networkx
+python-igraph
